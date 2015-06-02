@@ -1,5 +1,7 @@
 package com.example.activity;
 
+import com.example.BuildConfig;
+
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.robolectric.Robolectric;
@@ -9,7 +11,7 @@ import org.robolectric.annotation.Config;
 import static org.junit.Assert.assertTrue;
 
 @RunWith(RobolectricTestRunner.class)
-@Config(manifest = "src/main/AndroidManifest.xml", emulateSdk = 18)
+@Config(constants = BuildConfig.class, sdk = 21, manifest = "src/main/AndroidManifest.xml")
 public class DeckardActivityTest {
 
     @Test

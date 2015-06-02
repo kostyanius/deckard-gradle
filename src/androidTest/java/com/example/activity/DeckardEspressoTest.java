@@ -17,7 +17,7 @@ import static android.support.test.espresso.matcher.ViewMatchers.withText;
 public class DeckardEspressoTest {
 
     @Rule
-    public ActivityTestRule<DeckardActivity> mActivityRule = new ActivityTestRule<>(DeckardActivity.class);
+    public ActivityTestRule<DeckardActivity> mActivityRule = new ActivityTestRule<DeckardActivity>(DeckardActivity.class);
 
 
     @Test
