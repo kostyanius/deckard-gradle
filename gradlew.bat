@@ -87,4 +87,4 @@ exit /b 1
 :mainEnd
 if "%OS%"=="Windows_NT" endlocal
 
-@rem:omega --commenting this option so as it is absoulutelly useless.
+@rem:omega --commenting this option so as it is absoulutely useless.
